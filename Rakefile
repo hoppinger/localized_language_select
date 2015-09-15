@@ -21,8 +21,6 @@ Jeweler::Tasks.new do |gem|
   gem.authors = ["Kristian Mandrup"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-
-  gem.add_runtime_dependency 'rails', '>= 2.3.5'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
@@ -49,12 +47,12 @@ task :default => :test
 
 # task :default => :spec
 
-require 'rake/rdoctask'
-Rake::RDocTask.new do |rdoc|
-  version = File.exist?('VERSION') ? File.read('VERSION') : ""
-
-  rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "localized_language_select #{version}"
-  rdoc.rdoc_files.include('README*')
-  rdoc.rdoc_files.include('lib/**/*.rb')
-end
+# require 'rake/rdoctask'
+# Rake::RDocTask.new do |rdoc|
+#   version = File.exist?('VERSION') ? File.read('VERSION') : ""
+#
+#   rdoc.rdoc_dir = 'rdoc'
+#   rdoc.title = "localized_language_select #{version}"
+#   rdoc.rdoc_files.include('README*')
+#   rdoc.rdoc_files.include('lib/**/*.rb')
+# end
