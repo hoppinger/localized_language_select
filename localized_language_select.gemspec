@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.add_dependency("bundler")
   s.add_development_dependency("jeweler", ["~> 1.5.2"])
   s.add_development_dependency("simplecov")
-  s.add_runtime_dependency("rails", [">= 2.3.5"])
   s.add_development_dependency("rake", ["~> 10.4.2"])
 
   s.files         = `git ls-files -- lib/*`.split("\n") + %w(History.txt License.txt README.md)
